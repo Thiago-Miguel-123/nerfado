@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="wow()">
+    <div>
+        <img src="assets/img/aura.jpg" alt="aura">
+    </div>
+
+    <audio id="bizzaro">
+        <source src="assets/audio/weird-route-chapter-4-jingle.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+
+        const bizzaro = document.getElementById("bizzaro")
+
+        bizzaro.addEventListener('ended', () => {
+            location.replace("index.html");
+   });
+        
+
+        function wow(){
+            bizzaro.play()
+        }
+    </script>
+</body>
+</html>
