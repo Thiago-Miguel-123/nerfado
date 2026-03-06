@@ -1,0 +1,26 @@
+
+
+header {
+    background-color: aqua;
+    color: red;
+    margin-bottom: 20px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: aqua;
+    color: red;
+    margin-top: 20px solid black;
+}
+

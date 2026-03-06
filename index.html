@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sons</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="shortcut icon" href="assets/img/peak.jpg" type="image/jpg">
+    
+</head>
+<body>
+    <header>
+        <h1>
+            efafaifafawdfwdf
+        </h1>
+    </header>
+    <main>
+        <button  onclick="playSound()">qwerr</button>
+    </main>
+    <footer><img src="assets/img/peak.jpg" alt="beta">
+    <p>supremacia trex</p>
+    </footer>
+
+    <audio  id="a1">
+        <source src="assets/audio/goofy-ahh-runnin.mp3" type="audio/mp3">
+    </audio>
+    <audio  id="a2">
+        <source src="assets/audio/hollow-knight-hornet-voice-11.mp3" type="audio/mp3">
+    </audio>
+    <audio  id="a3">
+        <source src="assets/audio/lancer-splat.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        const a1 = document.getElementById("a1")
+        const a2 = document.getElementById("a2")
+        const a3 = document.getElementById("a3")
+
+        function playSound(){
+
+            var number = Math.floor(Math.random() * (4 - 1) + 1)
+
+            switch (number) {
+                case 1:
+                    a1.play()
+                    break;
+                case 2:
+                    a2.play()
+                    break;
+                case 3:
+                    a3.play()
+                    break;
+                default:
+                    break;
+            }
+
+        }
+
+        
+
+    </script>
+
+
+</body>
+</html>
